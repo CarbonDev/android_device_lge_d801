@@ -4,6 +4,10 @@ $(call inherit-product, vendor/carbon/config/common_gsm.mk)
 # Inherit some common Carbon stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 # Inherit device configuration
 $(call inherit-product, device/lge/d801/d801.mk)
 
